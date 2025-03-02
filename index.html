@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Zone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images\shoe-logo-new_300x300.jpg" alt="ShoeZone" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Collection</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Shoes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Boots</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Climbing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+                </ul>
+                <div class="icons">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Bootstrap Carousel -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="hero-section">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <h1 class="product-title">ZEN VIVID 15</h1>
+                                <p class="price">The best Sellers from <strong>$99.00</strong></p>
+                                <a href="#" class="btn btn-primary">Shop Now</a>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images\2021-10-16.jpg" alt="Shoe Image 1" class="img-fluid shoe-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="hero-section">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <h1 class="product-title">SPORT PRO 2024</h1>
+                                <p class="price">Premium running shoes from <strong>$129.00</strong></p>
+                                <a href="#" class="btn btn-primary">Shop Now</a>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images\shoe7.jpg" alt="Shoe Image 2" class="img-fluid shoe-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <div class="hero-section">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <h1 class="product-title">ULTRA BOOST</h1>
+                                <p class="price">Comfort and style from <strong>$149.00</strong></p>
+                                <a href="#" class="btn btn-primary">Shop Now</a>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images\shoe9.jpg" alt="Shoe Image 3" class="img-fluid shoe-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+    <!-- category section -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- First Category -->
+            <div class="col-md-3 col-sm-6">
+                <div class="category-card">
+                    <img src="images\collection2_6fd1e403-7021-427d-8be1-8bf857c8aacf_large.jpg" alt="Gym Sneakers">
+                    <h5>GYM SNEAKERS</h5>
+                </div>
+            </div>
+    
+            <!-- Second Category -->
+            <div class="col-md-3 col-sm-6">
+                <div class="category-card">
+                    <img src="images\collection3_large.jpg" alt="Hiking Boots">
+                    <h5>HIKING BOOTS</h5>
+                </div>
+            </div>
+    
+            <!-- Third Category -->
+            <div class="col-md-3 col-sm-6">
+                <div class="category-card">
+                    <img src="images\collection4_1d1d931a-3265-4eae-ac45-7e8a9cb3702e_large.jpg" alt="Work Boots">
+                    <h5>WORK BOOTS</h5>
+                </div>
+            </div>
+    
+            <!-- Fourth Category -->
+            <div class="col-md-3 col-sm-6">
+                <div class="category-card">
+                    <img src="images\collection5_47277ffa-efcf-413d-a764-b4b5be9e4e99_large.jpg" alt="Chukkas">
+                    <h5>CHUKKAS</h5>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Right Section -->
+        <div class="row mt-5">
+            <div class="col-12 text-center section-highlight">
+                <h1 class="fw-bold">SNEEK PEEK</h1>
+                <p class="text-muted">SPORTS EDITION*</p>
+            </div>
+        </div>
+    </div>
+    <!-- new arrivals section -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="fw-bold">NEW ARRIVALS</h2>
+                <p class="text-muted">Just in now</p>
+            </div>
+        </div>
+    
+        <!-- Product Carousel -->
+        <div class="product-slider">
+            <div class="product-card">
+                <img src="images\shoe1_cfcb6e4c-151f-46ee-bc34-3a892f794186_600x.jpg" alt="Zapatos DG MercadoLibre">
+                <h5>ZAPATOS DG MERCADOLIBRE</h5>
+                <p class="price">$478.00</p>
+                <i class="bi bi-bag"></i>
+            </div>
+    
+            <div class="product-card">
+                <img src="images\shoe5_5008bddd-b8ea-4eb6-b9a6-93ec50c62c39_600x.jpg" alt="Blucher Shoe">
+                <h5>BLUCHER SHOE</h5>
+                <p class="price">$780.00</p>
+                <i class="bi bi-bag"></i>
+            </div>
+    
+            <div class="product-card">
+                <img src="images\shoe12_968efbaa-1956-4621-93d2-1f1f8fdc3d11_600x.jpg" alt="Men's Harpoon 2 Eye Boot">
+                <h5>MEN'S HARPOON 2 EYE BOOT</h5>
+                <p class="price">$135.00</p>
+                <i class="bi bi-bag"></i>
+            </div>
+    
+            <div class="product-card">
+                <img src="images\collection3_large.jpg" alt="Brogue Shoe">
+                <h5>BROGUE SHOE</h5>
+                <p class="price">$134.00</p>
+                <i class="bi bi-bag"></i>
+            </div>
+        </div>
+    
+        <!-- Navigation Arrows -->
+        <div class="slider-nav">
+            <button class="prev"><</button>
+            <button class="next">></button>
+        </div>
+    </div>
+    <!-- promotion section -->
+    <div class="promo-section">
+        <div class="overlay"></div>
+        <div class="content text-center">
+            <p class="season-text">THE SEASON BEGINS</p>
+            <h1 class="promo-text">PROMOTION <span class="sale-text">SALE OFF 50%</span></h1>
+            <a href="#" class="btn shop-now">SHOP NOW</a>
+            <h2 class="hurry-text">HURRY</h2>
+            <p class="offer-text">BEFORE OFFER ENDS</p>
+            <div id="countdown" class="countdown"></div>
+        </div>
+    </div>
+    <!-- best seller section -->
+    <div class="container text-center my-5">
+        <h2 class="section-title">BEST SELLERS</h2>
+        <p class="section-subtitle">Just in Now</p>
+        
+        <!-- Category Tabs -->
+        <ul class="nav justify-content-center category-tabs">
+            <li class="nav-item"><a class="nav-link active" href="#" data-filter="all">ALL</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-filter="sale">SALE</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-filter="best">BEST</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-filter="new">NEW</a></li>
+        </ul>
+    
+        <!-- Products Grid -->
+        <div class="row g-4 mt-4">
+            <div class="col-md-6 col-lg-3 product-item" data-category="all">
+                <div class="product-card">
+                    <img src="images\shoe27_600x.jpg" alt="Bast Shoe">
+                    <h5 class="product-name">BAST SHOE</h5>
+                    <p class="product-price">$106.00</p>
+                    <span class="cart-icon">🛍️</span>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-3 product-item" data-category="sale">
+                <div class="product-card">
+                    <img src="images\shoe21_aa15e9bd-a530-4000-b8e6-d30eb4821073_600x.jpg" alt="Climbing Shoe">
+                    <h5 class="product-name">CLIMBING SHOE</h5>
+                    <p class="product-price">$675.00</p>
+                    <span class="cart-icon">🛍️</span>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-3 product-item" data-category="best">
+                <div class="product-card">
+                    <img src="images\shoe20_600x.jpg" alt="Court Shoe">
+                    <h5 class="product-name">COURT SHOE</h5>
+                    <p class="product-price">$478.00</p>
+                    <span class="cart-icon">🛍️</span>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-3 product-item" data-category="new">
+                <div class="product-card">
+                    <img src="images\shoe17_600x.jpg" alt="Derby Shoe">
+                    <h5 class="product-name">DERBY SHOE</h5>
+                    <p class="product-price">$756.00</p>
+                    <span class="cart-icon">🛍️</span>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-3 product-item" data-category="all">
+                <div class="product-card">
+                    <img src="images\shoe12_968efbaa-1956-4621-93d2-1f1f8fdc3d11_600x.jpg" alt="Diabetic Shoe">
+                    <h5 class="product-name">DIABETIC SHOE</h5>
+                    <p class="product-price">$364.00</p>
+                    <span class="cart-icon">🛍️</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   <!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <!-- Top Section -->
+        <div class="row top-section">
+            <div class="col-md-3 text-center">
+                <i class="fas fa-plane"></i>
+                <p>Free Delivery</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <i class="fas fa-headphones-alt"></i>
+                <p>Clients Discounts</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <i class="fas fa-exchange-alt"></i>
+                <p>Return of Goods</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <i class="fas fa-th-large"></i>
+                <p>Many Brands</p>
+            </div>
+        </div>
+
+        <!-- Middle Section -->
+        <div class="row middle-section">
+            <div class="col-md-12 text-center">
+                <img src="images\shoe-logo-new_300x300.jpg" alt="ShoeZone Logo" class="footer-logo">
+                <div class="subscribe-bar">
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-tumblr"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="row bottom-section">
+            <div class="col-md-3">
+                <h5>Contact Us</h5>
+                <p>📍 58 A, East Madison Street, Baltimore, MD, USA</p>
+                <p>📞 000 - 123456789</p>
+                <p>📧 info@example.com</p>
+            </div>
+            <div class="col-md-3">
+                <h5>Info</h5>
+                <ul>
+                    <li><a href="#">Search Terms</a></li>
+                    <li><a href="#">Advanced Search</a></li>
+                    <li><a href="#">Orders and Returns</a></li>
+                    <li><a href="#">Consultant</a></li>
+                    <li><a href="#">Help & FAQs</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Help</h5>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Support</h5>
+                <ul>
+                    <li><a href="#">Search Terms</a></li>
+                    <li><a href="#">Advanced Search</a></li>
+                    <li><a href="#">Orders and Returns</a></li>
+                    <li><a href="#">Consultant</a></li>
+                    <li><a href="#">Help & FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center copyright">
+            <p>© 2025 ShoeZone. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    
+    
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

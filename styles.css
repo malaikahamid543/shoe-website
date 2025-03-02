@@ -1,0 +1,478 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar .logo {
+    width: 150px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #6a0dad;
+}
+
+.icons a {
+    margin-left: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.icons a:hover {
+    color: #6a0dad;
+}
+
+/* Hero Section */
+.hero-section {
+    background: #000;
+    color: white;
+    padding: 100px 0;
+    text-align: left;
+}
+
+.product-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #bada55;
+}
+
+.price {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #bada55;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #a0c14f;
+}
+
+/* Shoe Image */
+.shoe-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+/* Indicators */
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 5px;
+    opacity: 0.5;
+    border: none;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #bada55;
+}
+/* /category section */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.category-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.category-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+h5 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.section-highlight {
+    background: rgba(245, 245, 245, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+}
+/* new arrivals section */
+
+
+.product-slider {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+h5 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+    color: black;
+}
+
+.bi-bag {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.slider-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.slider-nav button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.slider-nav button:hover {
+    background: purple;
+}
+/* promotion section */
+/* Fullscreen Promo Section */
+.promo-section {
+    position: relative;
+    height: 100vh;
+    background: url('images/amit-lahav-NccnOipBack-unsplash.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Dark Overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Content Styling */
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+.season-text {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.promo-text {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sale-text {
+    color: red;
+}
+
+.shop-now {
+    background: purple;
+    color: white;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.shop-now:hover {
+    background: red;
+    color: white;
+}
+
+.hurry-text {
+    font-size: 80px;
+    font-weight: bold;
+    opacity: 0.2;
+}
+
+.offer-text {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: -20px;
+}
+
+/* Countdown Timer */
+.countdown {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .promo-text {
+        font-size: 30px;
+    }
+    .hurry-text {
+        font-size: 50px;
+    }
+}
+/* best seller section */
+/* Section Title */
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: gray;
+    border-bottom: 2px solid purple;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Category Tabs */
+.category-tabs .nav-link {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.category-tabs .nav-link.active {
+    color: purple;
+    border-bottom: 2px solid purple;
+}
+
+/* Product Card */
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.product-card:hover img {
+    transform: scale(1.05);
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.cart-icon {
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+.cart-icon:hover {
+    color: purple;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .category-tabs {
+        flex-wrap: wrap;
+    }
+    
+    .product-card {
+        padding: 10px;
+    }
+}
+/* footer */
+/* Footer Styles */
+.footer {
+    background: #111;
+    color: #fff;
+    padding: 40px 0;
+}
+
+/* Top Section */
+.top-section {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+}
+
+.top-section i {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+/* Middle Section */
+.middle-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.subscribe-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.subscribe-bar input {
+    padding: 8px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.subscribe-bar button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    background: purple;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 8px;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: purple;
+}
+
+/* Bottom Section */
+.bottom-section {
+    padding: 30px 0;
+}
+
+.bottom-section h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.bottom-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bottom-section ul li {
+    margin-bottom: 8px;
+}
+
+.bottom-section ul li a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.bottom-section ul li a:hover {
+    color: purple;
+}
+
+/* Copyright */
+.copyright {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .top-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bottom-section {
+        text-align: center;
+    }
+}
